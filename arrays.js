@@ -43,13 +43,14 @@ console.log(middleNums)
 // CODE HERE
 const arr = [30,101,50,200]
 
-function bigOrSmall (){
+function bigOrSmall (arr){
   const answers = [];
-  for (let i = 0; i < 4; i++){
-    let x = arr[i];
-    if (x>100){answers.push(`big`)}
-    else {answers.push(`small`)}
+  for (let i = 0; i < arr.length; i++){
+    if (arr[i]>100){answers.push(`big`)}
+    
+    else {answers.push(`small`)
   }
-  console.log(answers)
+
+  }
+  return answers
 }
-bigOrSmall()
