@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+var gitDefinition = [`sofware designed to help developers save and share code to work collaberativly with others`]
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,7 +19,7 @@
 */
 
 //CODE HERE
-
+var gitHubDefinition = [`github is a place for devs to remotely store their code, which also allows for it to be shared with other devs.`]
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,6 +35,7 @@
 */
 
 //CODE HERE
+const init = {description:`creates a local git repository`,code: `git init`}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,6 +44,7 @@
 */
 
 //CODE HERE
+const clone = {description:`clones or makes a copy of a repo on github to your local repo`, code: `git clone 'put URL from github here'` }
 
 //////////////////PROBLEM 5////////////////////
 /*
