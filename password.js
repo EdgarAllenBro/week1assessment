@@ -7,7 +7,6 @@ const reader = readline.createInterface({
   output: process.stdout,
 });
 reader.question("What is your password");
-{
-    password = input.text('')
-    
-}
+
+input.text('')
+
