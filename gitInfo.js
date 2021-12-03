@@ -53,6 +53,7 @@ const clone = {description:`clones or makes a copy of a repo on github to your l
 */
 
 //CODE HERE
+const status = {description:`will check your repo and let you know the branch its on and whether or not there are changes to commit`, code: `git status`}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -61,6 +62,7 @@ const clone = {description:`clones or makes a copy of a repo on github to your l
 */
 
 //CODE HERE
+const add = {discription:`adds selected files for the following git commands`, code:`git add 'files/location to be added'`}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -69,7 +71,7 @@ const clone = {description:`clones or makes a copy of a repo on github to your l
 */
 
 //CODE HERE
-
+const commit = {description:`saves the current 'added' files as they are, creating a "back up" version if needed, also showing the progress of a code`,code:`git commit` }
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -78,3 +80,4 @@ const clone = {description:`clones or makes a copy of a repo on github to your l
 */
 
 //CODE HERE
+const push = {description:`pushes selected local repo to the specified repo and branch on github`, code:`git push 'remote repo'  'remote branch'`}
